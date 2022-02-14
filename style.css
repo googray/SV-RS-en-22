@@ -18,8 +18,8 @@
 /*Variable part end*/
 /*Main part*/
 body {
-  background-color: var(--bgrc-body);
-  /* background-image: url(./assets/img/kisspng-marble_.png); */
+  /* background-color: var(--bgrc-body); */
+  background-image: url(./assets/img/kisspng-marble_.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
