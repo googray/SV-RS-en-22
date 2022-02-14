@@ -97,6 +97,10 @@ html {
   padding-right: 10px;
 }
 
+.lang:hover {
+  box-shadow: 0px 8px 18px 0px #ff6b0896;
+}
+
 .skills-list,
 .languages-list,
 .hobbies-list {
@@ -474,6 +478,10 @@ html {
   list-style-type: none;
   background: var(--color-time);
 }
+
+.main-footer__link:hover {
+  box-shadow: 0px 8px 18px 0px #ff6b0896;
+}
 .github-icon {
   width: 30px;
   padding-top: 2px;
@@ -485,6 +493,13 @@ html {
 .codewars-ico {
   width: 100px;
   padding-top: 4px;
+}
+
+.rs-cv__link {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--color-title);
+  font-size: 14px;
 }
 
 /*Right side end*/
