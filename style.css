@@ -7,7 +7,7 @@
 
 :root {
   --bgrc-body: #f5f7fa;
-  --bgrc-left-side: #1e2939;
+  --bgrc-left-side: #87b3f1;
   --color-main: #fff;
   --color-title: #2a2a2a;
   --color-about: #595959;
@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   padding: 20px;
   min-height: 100vh;
-  font-family: "Monserrat", Verdana, sans-serif;
+  font-family: 'Monserrat', Verdana, sans-serif;
 }
 
 .container {
@@ -79,7 +79,7 @@ html {
   margin: 7px auto 0;
   border-radius: 7px;
   cursor: pointer;
-  filter: grayscale(80%);
+  filter: sepia(40%) grayscale(200%) brightness(1.25);
   transition: all 1.5s;
   transform: rotateY(180deg);
 }
@@ -88,7 +88,7 @@ html {
 .soft-skills,
 .languages,
 .hobbies {
-  background-color: #2e3f58;
+  background-color: #5191f0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -155,7 +155,7 @@ html {
 
 .skills-item__soft::before,
 .hobbies-item::before {
-  content: "\2022";
+  content: '\2022';
   margin-right: 8px;
   color: var(--color-link);
   font-size: 18px;
@@ -177,7 +177,7 @@ html {
 
 .contacts-item {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 20px;
   color: var(--color-main);
   display: flex;
@@ -185,7 +185,7 @@ html {
 }
 
 .contacts-link {
-  opacity: 0.6;
+  opacity: 0.9;
   color: var(--color-main);
   text-decoration: none;
 }
@@ -326,8 +326,8 @@ html {
 .bio,
 .projects,
 .jobs,
-.education,
-.code {
+.education
+/* .code  */ {
   margin-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
@@ -465,6 +465,11 @@ html {
 
 .accent {
   color: var(--color-about);
+  font-weight: normal;
+}
+
+.accent-history {
+  color: var(--color-about);
 }
 
 .main-footer__links {
@@ -500,6 +505,11 @@ html {
   text-decoration: none;
   color: var(--color-title);
   font-size: 14px;
+}
+
+.rodo {
+  font-size: 9px;
+  padding: 0 20px 10px;
 }
 
 /*Right side end*/
@@ -629,9 +639,9 @@ html {
 }
 
 @media (max-width: 420px) {
-  .code {
+  /* .code {
     display: none;
-  }
+  } */
   .contacts-title,
   .skills-title,
   .jobs-title,
